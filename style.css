@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+h1{
+  text-align: center;
+  padding-top:40px;
+}
+a {
+  text-decoration: none;
+  color: rgb(89, 0, 255);
+}
+h2 {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 20px;
+  font-family: "Lexend Deca", sans-serif ;
+  font-weight: 700;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 50px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 400;
+}
+.parent_container {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  padding: 80px 20px;
+  height: 100%;
+}
+img {
+  padding-bottom: 20px;
+}
+.child_one {
+  background-color: hsl(31, 77%, 52%);
+  padding: 40px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.child_two {
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px;
+}
+.child_three {
+  background-color: hsl(179, 100%, 13%);
+  padding: 40px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+button {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+.orange {
+  color: hsl(31, 77%, 52%);
+}
+.blue {
+  color: hsl(184, 100%, 22%);
+}
+.navyblue {
+  color: hsl(179, 100%, 13%);
+}
+.orange:active {
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+  border: 1px solid white;
+}
+.blue:active {
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+  border: 1px solid white;
+}
+.navyblue:active {
+  color:hsl(0, 0%, 95%) ;
+  background-color: transparent; 
+  border: 1px solid white;
+}
+
+@media (max-width:560px) {
+
+  .parent_container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
